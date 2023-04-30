@@ -56,7 +56,7 @@ private final String title;
 System.out.println("The "+discType+" "+title+" is spaining at "+CAPACITIES.get(discType));
     }
     @Override
-    public abstract Void readData();
+    public abstract void readData();
     public abstract void runFile(File file);
     @Override
     public void WriteData(File file){

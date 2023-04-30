@@ -10,8 +10,8 @@ private String data;
     }
 
     @Override
-    public Void readData() {
-        return null;
+    public void readData() {
+
     }
     public String toString(){
         return super.toString()

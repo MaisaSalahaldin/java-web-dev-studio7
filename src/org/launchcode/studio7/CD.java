@@ -21,8 +21,9 @@ public class CD extends BaseDisc {
   }
 
     @Override
-    public Void readData() {
+    public void readData() {
         System.out.println(this);
+
     }
 
     @Override

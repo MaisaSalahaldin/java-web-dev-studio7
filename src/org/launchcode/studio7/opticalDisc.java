@@ -17,7 +17,7 @@ public interface opticalDisc {
 
     }};
    public void spinDisc();
-    public  Void readData();
+    public  void readData();
     public  void WriteData(File file);
     public void runFile(File file);
 
